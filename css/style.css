@@ -14,14 +14,11 @@ header {
 .logo {
     color: white;
 }
-.ms-square {
-    border: 1px solid white;
-    background-color: antiquewhite;
-    min-height: 80px;
-}
+
 .ms-header {
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #2c3e50;
 }
 .hamburger-menu {
     display: block;
@@ -51,6 +48,7 @@ header {
     min-height: 200px;
     padding-bottom: 10px;
     padding-top: 15px;
+    margin-top: 44px;
 }
 .fa-bars {
     color: white;
