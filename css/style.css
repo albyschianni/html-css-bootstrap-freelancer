@@ -86,7 +86,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
 .fa-star {
@@ -127,9 +127,61 @@ h1 {
 .portfolio {
     margin: 30px 0;
 }
+.item-portfolio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.img-portfolio {
+    width: 400px;
+    border-radius: 15px;
+}
+
+/*********** tablet version ***********/
+
+@media screen and (min-width:768px) {
+    .img-portfolio {
+        width: 350px;
+    }
+}
+
+/*********** desktop version ***********/
+
+@media screen and (min-width:992px) {
+    .img-portfolio {
+        width: 300px;
+    }
+}
+
 
 /* <!-- SECTION ABOUT --> */
 
 .about {
     background-color: #1abc9c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text-about {
+    margin-bottom: 15px;
+    color: white;
+    font-size: 13px;
+}
+.about-intro {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.fa-download {
+    color: white;
+}
+.download {
+    display: flex;
+    justify-content: center;
+}
+.tag-download {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid;
+    padding: 4px 8px;
 }
