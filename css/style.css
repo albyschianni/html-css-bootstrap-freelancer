@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+
+header {
+    background-color: #2c3e50;
+    /* min-height: 100px; */
+}
+.logo {
+    color: white;
+}
+.ms-square {
+    border: 1px solid white;
+    background-color: antiquewhite;
+    min-height: 80px;
+}
+.ms-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hamburger-menu {
+    display: block;
+    text-align: end;
+}
+.link-nav {
+    display: none;
+    text-align: end;
+}
+
+/*********** tablet version ***********/
+
+@media screen and (min-width:768px) {
+    .hamburger-menu {
+        display: none;
+    }
+    .link-nav {
+        display: block;
+    }
+    
+}
+
+/* <!-- SECTION INTRO --> */
+
+.intro{
+    background-color: #1abc9c;
+    min-height: 200px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.fa-bars {
+    color: white;
+    font-size: 16px;
+    border-radius: 12%;
+    border: 1px solid;
+    padding: 3px 5px;
+}
+
+.item-nav {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.item-padding {
+    padding: 0 15px;
+}
+.foto-profilo {
+    display: flex;
+    justify-content: center;
+}
+#img-profile {
+    width: 200px;
+    margin-bottom: 10px;
+}
+h1 {
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+.item-star {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+.fa-star {
+    color: white;
+    padding: 0 5px;
+}
+.indent {
+    height: 3px;
+    background-color: white;
+    width: 50px;
+    border-radius: 20%;
+}
+.text-skill {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*********** tablet version ***********/
+
+@media screen and (min-width:768px) {
+    #img-profile {
+        width: 150px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .text-skill {
+        font-size: 13px;
+    }
+    .intro {
+        padding-top: 25px;
+    }
+}
+
+/* <!-- SECTION PORTFOLIO --> */
+
+.portfolio {
+    margin: 30px 0;
+}
+
+/* <!-- SECTION ABOUT --> */
+
+.about {
+    background-color: #1abc9c;
+}
