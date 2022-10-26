@@ -185,3 +185,95 @@ h1 {
     border: 1px solid;
     padding: 4px 8px;
 }
+
+/* <!-- SECTION CONTACT ME --> */
+
+.contact-me {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.linea-contactme {
+    height: 1.25px;
+    background-color: #ccc;
+    width: 62%;
+    margin: 0 auto;
+}
+#staticEmail {
+    color: #cccccc;
+}
+#tag-send {
+    background-color: #1abc9c;
+    border: #1abc9c;
+}
+.contactme-intro {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.item-star2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.indent2 {
+    height: 3px;
+    background-color: black;
+    width: 50px;
+    border-radius: 20%;
+}
+.blackstar {
+    color: black;
+}
+
+/* <!-- SECTION CONTACTS --> */
+
+.contacts {
+    background-color: #3a546d;
+    padding-top: 30px;
+    
+}
+
+.fa-facebook-f, .fa-google-plus-g, .fa-twitter, .fa-linkedin-in {
+    color: white;
+    padding-top: 6px;
+}
+.intro-contacts {
+    text-align: center;
+    color: white;
+}
+.ms-container-social {
+    width: 30px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.social {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.text-contacts {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2c3e50;
+}
+.text-footer {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+}
+.fa-copyright {
+    color: white;
+}
