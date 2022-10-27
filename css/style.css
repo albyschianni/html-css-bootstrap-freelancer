@@ -120,6 +120,18 @@ h1 {
     }
 }
 
+/*********** desktop version ***********/
+
+@media screen and (min-width:992px) {
+    h1 {
+        font-size: 38px;
+    }
+    .text-skill {
+        font-size: 16px;
+    }
+}
+
+
 /* <!-- SECTION PORTFOLIO --> */
 
 .portfolio {
@@ -134,12 +146,27 @@ h1 {
     width: 400px;
     border-radius: 15px;
 }
+.portfolio-text {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.indent-portfolio {
+    height: 3px;
+    background-color: black;
+    width: 85px;
+    border-radius: 20%;
+  }
 
 /*********** tablet version ***********/
 
 @media screen and (min-width:768px) {
     .img-portfolio {
         width: 350px;
+    }
+    .portfolio-text {
+        font-size: 32px;
     }
 }
 
@@ -148,6 +175,12 @@ h1 {
 @media screen and (min-width:992px) {
     .img-portfolio {
         width: 300px;
+    }
+    .portfolio-text {
+        font-size: 42px;
+    }
+    .indent-portfolio {
+        width: 110px;
     }
 }
 
@@ -168,6 +201,7 @@ h1 {
     text-align: center;
     color: white;
     margin-bottom: 10px;
+    font-size: 20px;
 }
 .fa-download {
     color: white;
@@ -183,6 +217,26 @@ h1 {
     border: 1px solid;
     padding: 4px 8px;
 }
+
+/*********** tablet version ***********/
+
+@media screen and (min-width:768px) {
+    .about-intro {
+        font-size: 26px;
+    }
+}
+
+/*********** desktop version ***********/
+
+@media screen and (min-width:992px) {
+    .about-intro {
+        font-size: 38px;
+    }
+    .indent {
+        width: 80px;
+    }
+}
+
 
 /* <!-- SECTION CONTACT ME --> */
 
@@ -225,6 +279,27 @@ h1 {
     color: black;
 }
 
+/*********** tablet version ***********/
+
+@media screen and (min-width:768px) {
+    .contactme-intro {
+        font-size: 26px;
+    }
+}
+
+/*********** desktop version ***********/
+
+@media screen and (min-width:992px) {
+    .contactme-intro {
+        font-size: 38px;
+    }
+    .indent2 {
+        width: 110px;
+    }
+}
+
+
+
 /* <!-- SECTION CONTACTS --> */
 
 .contacts {
@@ -260,6 +335,10 @@ h1 {
     color: white;
     font-size: 14px;
     margin-bottom: 30px;
+}
+.link-bootstrap {
+    text-decoration: none;
+    color: #1abc9c;
 }
 
 /* FOOTER */
